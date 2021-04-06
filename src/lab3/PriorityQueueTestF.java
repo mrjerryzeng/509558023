@@ -13,8 +13,8 @@ import static org.junit.Assert.assertArrayEquals;
 public class PriorityQueueTest {
     static Stream<Arguments> stringIntAndListProvider(){
         return Stream.of(
-                Arguments.arguments(new int[] {2,9,1,3},new int[] {1,2,3,9}),
-                Arguments.arguments(new int[] {9,2,7,5},new int[] {2,5,7,9}),
+                Arguments.arguments(new int[] {2,9,1,3},new int[] {1,4,5,9}),
+                Arguments.arguments(new int[] {9,2,7,5},new int[] {2,3,1,9}),
                 Arguments.arguments(new int[] {6,3,5,1},new int[] {1,3,5,6}),
                 Arguments.arguments(new int[] {9,0,1,4},new int[] {0,1,4,9}),
                 Arguments.arguments(new int[] {1,2,8,5},new int[] {1,2,5,8})
