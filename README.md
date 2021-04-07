@@ -3,7 +3,7 @@
 
 ![image](https://github.com/mrjerryzeng/509558023/blob/main/1.passed.png)  
 
-![image](https://github.com/mrjerryzeng/509558023/blob/main/2.passed_test.png)  
+![image](https://github.com/mrjerryzeng/509558023/blob/main/2.pass_test.png)  
 
 ![image](https://github.com/mrjerryzeng/509558023/blob/main/3.failed.png)  
 
