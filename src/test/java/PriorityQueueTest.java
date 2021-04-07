@@ -13,11 +13,11 @@ import java.util.stream.Stream;
 public class PriorityQueueTest {
     static Stream<Arguments> stringIntAndListProvider(){
         return Stream.of(
-                arguments(new int[] {2,9,1,3},new int[] {1,2,3,9}),
-                arguments(new int[] {9,2,7,5},new int[] {2,5,7,9}),
-                arguments(new int[] {6,3,5,1},new int[] {1,3,5,6}),
-                arguments(new int[] {9,0,1,4},new int[] {0,1,4,9}),
-                arguments(new int[] {1,2,8,5},new int[] {1,2,5,8})
+                arguments(new int[] {2,9,1,3},new int[] {1,2,3,4}),
+                arguments(new int[] {9,2,7,5},new int[] {2,5,7,8}),
+                arguments(new int[] {6,3,5,1},new int[] {1,3,5,5}),
+                arguments(new int[] {9,0,1,4},new int[] {0,1,4,1}),
+                arguments(new int[] {1,2,8,5},new int[] {1,2,5,1})
         );
     }
     @ParameterizedTest(
